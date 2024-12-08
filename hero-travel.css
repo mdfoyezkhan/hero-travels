@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* ----------------------------------navbar style here----------------------- */
 nav.navbar {
@@ -36,6 +37,7 @@ ul.menu-bar li a {
     font-size: 18px;
     text-transform: capitalize;
     transition: .5s;
+    font-weight: 500;
 }
 ul.menu-bar li a:hover{
     color: #FF5400;
@@ -55,15 +57,30 @@ ul.menu-bar li a:hover{
     text-align: center;
     margin: 70px 200px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     border-radius: 25px;
+    position: relative;
+    z-index: -2;
+}
+.bennar-section:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.818), transparent);
+    display: block;
+    top: 0;
+    position: absolute;
+    border-radius: 25px;
+    left: 0;
+    z-index: -1;
 }
 
 .bennar-section h1 {
     color: #FFFFFF;
     font-size: 65px;
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 .bennar-section p {
