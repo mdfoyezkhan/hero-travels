@@ -9,6 +9,7 @@ nav.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 }
 .logo-box {
     display: flex;
@@ -46,4 +47,51 @@ ul.menu-bar li a:hover{
     font-size: 30px;
     color: #131318;
     display: none;
+}
+/* ------------------------------bennar section style start here------------------- */
+.bennar-section{
+    margin: 0px 220px;
+    background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    text-align: center;
+    margin: 70px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.bennar-section h1 {
+    color: #FFFFFF;
+    font-size: 65px;
+    padding-top: 100px;
+}
+
+.bennar-section p {
+    font-size: 18px;
+    width: 700px;
+    margin: auto;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.banner-input-wrapper {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background: #ffffff5e;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.for-width {
+    width: 170px;
+    padding: 15px 10px;
+    color: gray;
+    border-radius: 10px;
+    border: none;
+}
+.btn-find{
+    background: #FF5400;
+    color: #FFFFFF;
 }
