@@ -50,9 +50,23 @@ ul.menu-bar li a:hover{
     color: #131318;
     display: none;
 }
+@media screen and (max-width:576px) {
+    nav.navbar {
+        padding: 20px 0px 20px 20px;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    ul.menu-bar{
+        display: none;
+    }
+    .menu-bar-icon{
+        display: block;
+        padding-right: 30px;
+    }
+}
 /* ------------------------------bennar section style start here------------------- */
 .bennar-section{
-    margin: 0px 220px;
     background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     text-align: center;
     margin: 70px 200px;
@@ -111,4 +125,32 @@ ul.menu-bar li a:hover{
 .btn-find{
     background: #FF5400;
     color: #FFFFFF;
+}
+@media screen and (max-width:576px) {
+    .bennar-section{
+        margin: 50px 20px;
+        height:auto;
+    }
+    .banner-input-wrapper{
+        width: 70%;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .for-width{
+        width: 305px;
+    }
+    .bennar-section h1 {
+        color: #FFFFFF;
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .bennar-section p {
+        width: 385px;
+        font-size: 16px;
+
+    }
+    .bennar-conteiner {
+        padding-bottom: 20px;
+    }
 }
