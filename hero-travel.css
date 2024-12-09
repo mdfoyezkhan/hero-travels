@@ -324,3 +324,113 @@ section.why-choose-section > p {
         width: 100%;
     }
 }
+/* --------------------------------deals and descount section style here----------------------- */
+section.deals-and-descount-section {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+section.deals-and-descount-section h2 {
+    font-size: 45px;
+    margin: 10px auto;
+}
+section.deals-and-descount-section > p {
+    width: 600px;
+    margin: 10px auto;
+    color: #424247;
+}
+.deals-and-descount-cart-wrapper {
+    width: 100%;
+    margin-top: 30px;
+    padding: 55px;
+    display: flex;
+    justify-content: end;
+    background: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.deals-and-descount-cart-wrapper2{
+    display: flex;
+    justify-content: flex-start;
+    background: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart {
+    width: 500px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+    background: #ffffffd6;
+    height: 350px;
+}
+
+.cart h3 {
+    font-size: 24px;
+    margin: 28px 0px 20px 0px;
+}
+
+.cart p {
+    margin-bottom: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.cart h4 {
+    font-size: 20px;
+    color: #FF5400;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.timing-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.timing-wrapper a {
+    color: #5A5A5D;
+}
+
+.timing-wrapper a svg {
+    color: #FF5400;
+}
+
+button.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF5400;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .5s;
+}
+button.btn:hover{
+    background: #5A5A5D;
+}
+@media screen and (max-width:576px){
+    section.deals-and-descount-section h2{
+        font-size: 30px;
+    }
+    section.deals-and-descount-section > p {
+        width: auto;
+        padding: 20px;
+    }
+    .deals-and-descount-cart-wrapper{
+        padding: 40px;
+    }
+    .cart{
+        height: 365px;
+    }
+    .timing-wrapper a{
+        font-size: 13px;
+    }
+    .timing-wrapper{
+        gap: 10px;
+    }
+}
