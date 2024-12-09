@@ -154,3 +154,58 @@ ul.menu-bar li a:hover{
         padding-bottom: 20px;
     }
 }
+/* ------------------------main section and popular tour section start here--------------------- */
+main#main-section {
+    margin: 50px 200px;
+}
+section.popular-tour-section {
+    display: flex;
+    gap: 20px;
+}
+.tours-discription-box h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #131318;
+}
+.tours-discription-box p {
+    font-size: 16px;
+    margin: 20px 0px;
+    line-height: 25px;
+    color: #131318;
+}
+.list-padding {
+    padding-left: 20px !important;
+    margin: 10px 0px !important;
+}
+.tours-discription-box li {
+    margin: 20px 0px 0px 0px;
+    color: #131318;
+}
+button.read-more-btn {
+    padding: 15px 30px;
+    background: #FF5400;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    transition: .5s;
+    cursor: pointer;
+}
+button.read-more-btn:hover{
+    background: #424247;
+}
+@media screen and (max-width:576px){
+    section.popular-tour-section{
+        flex-direction: column;
+    }
+    main#main-section{
+        margin: 50px 20px;
+    }
+    .tours-img{
+        width: 100%;
+    }
+    .tours-img img{
+        width: 100%;
+    }
+}
