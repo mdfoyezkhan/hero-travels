@@ -267,3 +267,60 @@ section.destination-section p {
         left: 38%;
     }
 }
+/* --------------------------why choose us section style start here----------------- */
+section.why-choose-section {
+    text-align: center;
+}
+section.why-choose-section h2 {
+    font-size: 45px;
+    margin: 10px auto;
+}
+
+section.why-choose-section > p {
+    width: 600px;
+    margin: 10px auto;
+    color: #424247;
+}
+.choose-box {
+    width: 45%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+}
+.choose-box h3{
+    padding-left: 10px;
+    margin: 10px 0px;
+    color: #131318;
+    font-size: 24px;
+}
+.choose-box p{
+    color: #5A5A5D;
+    padding-left: 10px;
+}
+.choose1{
+    background: #fffbf7;
+}
+.choose2{
+    background: #f4fdff;
+}
+.choose3{
+    background: #fef6f6;
+}
+.why-choose-3box-wrapper {
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+@media screen and (max-width:576px){
+    section.why-choose-section > p{
+        width: auto;
+    }
+    .why-choose-3box-wrapper{
+        flex-direction: column;
+    }
+    .choose-box {
+        width: 100%;
+    }
+}
