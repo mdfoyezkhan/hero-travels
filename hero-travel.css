@@ -562,3 +562,43 @@ hr{
         left: 47%;
     }
 }
+/* -------------------------footer section style start here---------------- */
+footer.footer-section {
+    padding: 77px 200px;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+footer.footer-section p {
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    line-height: 25px;
+    color: #5A5A5D;
+}
+
+.footer-icon-wrapper {
+    width: 700px;
+    margin: auto;
+    border-bottom: 1px solid #cfc3c3;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #3b3b3e;
+    gap: 30px;
+}
+@media screen and (max-width:576px){
+    footer.footer-section{
+        padding: 50px 20px;
+    }
+    .footer-logo {
+        font-size: 18px;
+    }
+    footer.footer-section p{
+        width: auto;
+    }
+    .footer-icon-wrapper{
+        width: 70%;
+    }
+}
